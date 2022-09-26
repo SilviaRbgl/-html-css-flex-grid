@@ -1,0 +1,37 @@
+/* || ARTWORK STYLE */
+
+table,
+th,
+td {
+    border: 1px solid #495867;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 0px;
+    color: #495867;
+}
+
+table {
+    width: 74.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    height: 35px;
+    background-color: #495867;
+}
+
+tr th {
+    color: #BDD5EA;
+}
+
+td {
+    height: 35px;
+}
+
+td img {
+    width: 120px;
+    padding: 5px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-general.css">
+    <link rel="stylesheet" href="../css/style-shop.css">
+    <title>SHOP: Art Gallery</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="./artwork.html">ARTWORK</a></li>
+            <li><a class="active" href="./shop.html">SHOP</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <h1>Shop</h1>
+
+    <p>Are you interested on buying a product? You simply have to fill out this form with the requested information and we will contact you.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <p id="formular">FORMULAR</p>
+
+    <form action="./thankyou.html" target="_blank">
+        <div class="first-last-name">
+            <div>
+                <label for="fname">First name<span class="req">*</span>:</label><br>
+                <input type="text" placeholder="Mint-green" id="fname" name="fname" required><br>
+            </div>
+
+            <div class="last-name">
+                <label for="lname">Last name<span class="req">*</span>:</label><br>
+                <input type="text" placeholder="Octopuses" id="lname" name="lname" required><br>
+            </div>
+        </div>
+
+        <div class="gender-items">
+            <div>
+                <h3>Select your gender:</h3>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="non-binary" name="gender" value="Non-binary">
+                <label for="non-binary">Non binary</label>
+            </div>
+
+            <div class="items-shop">
+                <h3>Chose items:</h3>
+                <input type="checkbox" id="item1" name="item1" value="Item number 1">
+                <label for="item1">I want item number 1</label><br>
+                <input type="checkbox" id="item2" name="item2" value="Item number 2">
+                <label for="item2">I want item number 2</label><br>
+                <input type="checkbox" id="item3" name="item3" value="Item number 3">
+                <label for="item3">I want item number 3</label></br>
+                <input type="checkbox" id="item4" name="item4" value="Item number 4">
+                <label for="item4">I want item number 4</label></br>
+            </div>
+        </div>
+
+        <div class="payment-method">
+            <h3>Chose payment method:</h3>
+            <select name="payment-method" id="payment-method">
+                <option value="creditcard">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+            </select>
+        </div>
+
+        <div class="terms-conditions">
+            <h3>Consent Terms and Conditions:</h3>
+            <input type="checkbox" id="accept" name="accept" value="accept" required>
+            <label for="accept">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <a href="#">sed diam voluptua</a>.</label><br>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>© Copyright - 2022 <br> Art Gallery - "Nameless", Inc.</p>  
+    </footer>
+    
+</body>
+</html>

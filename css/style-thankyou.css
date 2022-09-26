@@ -1,0 +1,47 @@
+/* || THANKS STYLE */
+
+#thank-you1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80px;
+    color: #FE5F55;
+    animation-name: animationColor1;
+    animation-duration: 2s;
+}
+
+@keyframes animationColor1 {
+    from {
+        color: #BDD5EA;
+    }
+
+    to {
+        color: #FE5F55;
+    }
+}
+
+#thank-you2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    color: #FE5F55;
+    animation-name: animationColor2;
+    animation-duration: 4s
+}
+
+@keyframes animationColor2 {
+    0% {
+        color: #BDD5EA;
+    }
+
+    15% {
+        color: #BDD5EA;
+    }
+
+    100% {
+        color: #FE5F55;
+    }
+}

@@ -1,0 +1,43 @@
+/* || INDEX STYLE */
+
+#first-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0px;
+}
+
+#first-row img:first-child {
+    width: 21%;
+}
+
+#first-row img:nth-child(2) {
+    width: 34%;
+}
+
+#first-row img:last-child {
+    width: 23%;
+}
+
+#second-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+#second-row img:first-child {
+    width: 30%;
+}
+
+#second-row img:nth-child(2) {
+    width: 25%;
+}
+
+#second-row img:last-child {
+    width: 20%;
+}

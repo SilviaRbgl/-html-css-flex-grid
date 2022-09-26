@@ -1,0 +1,110 @@
+/* || SHOP STYLE */
+
+#formular {
+    display: flex;
+    background-color: #495867;
+    justify-content: center;
+    padding: 20px 20px 20px 0px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: #BDD5EA;
+    border-radius: 20px;
+}
+
+form {
+    display: grid;
+    justify-items: stretch;
+    font-family: 'Courier New', C ourier, monospace;
+    font-size: 25px;
+    color: #495867;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: #49586746;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.first-last-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first-last-name input {
+    /* display: flex; */
+    width: 85%;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    background-color: #F7F7FF
+}
+
+:placeholder-shown {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.req {
+    color: red;
+}
+
+.gender-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding-left: 20px; */
+}
+
+/* .items-shop {
+    padding-left: 150px;
+} */
+
+.payment-method {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding-left: 20px; */
+}
+
+.terms-conditions {
+    /* padding-left: 20px; */
+}
+
+.terms-conditions a {
+    color: #495867;
+}
+
+select {
+    width: 70%;
+    height: 60%;
+    padding: 5px 5px;
+    border-radius: 5px;
+
+    background-color: #F7F7FF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=button],
+input[type=submit] {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: #FE5F55;
+    border: none;
+    color: #F7F7FF;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 55px 0px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    border-radius: 20px;
+    width: 160px;
+}
